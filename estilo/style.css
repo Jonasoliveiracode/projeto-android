@@ -4,9 +4,8 @@
 
 
 @font-face{
-    font-family: 'Android';
-    src: url('/fontes/idroid.otf') format('opentype');
-    font-weight: normal;
+    font-family: 'idroid';
+    src: url('/fontes/idroid.otf') format("opentype");
 }
 
 
@@ -23,7 +22,7 @@
 
     --fonte-padrao: arial,verdana,helvetica,sans-serif;
     --fonte-destaque: "Bebas Neue", sans-serif;
-    --fonte-android: 'Android', 'Bebas Neue';
+    
 }
 
 *{
@@ -66,6 +65,7 @@ header > p {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.233);
     margin-bottom: 20px;
 }
+
 nav{
     background-color: var(--cor5);
     padding: 10px;
@@ -99,7 +99,7 @@ main{
 }
 main h1{
     color: var(--cor5);
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-idoird);
     font-weight: normal;
     font-size: 1.8em
 }
@@ -145,6 +145,10 @@ main img.pequena{
     width: 50%;
     display: block;
     margin: auto;
+}
+article > h1, h2{
+    font-family: 'idroid';
+    color: #1a5c37;
 }
 
 div.video{
